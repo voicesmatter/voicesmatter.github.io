@@ -1,0 +1,165 @@
+html {
+  display: block;
+}
+
+body {
+  margin: 0 auto;
+  display: block;
+}
+
+main {
+  position: relative;
+  margin: auto;
+  margin-top: 150px;
+  height: auto;
+  font-family: Roboto;
+  display: block;
+  padding: 5%
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 150px;
+  top: 0;
+  background-color: #000;
+}
+
+div#nav {
+  width: 90%;
+  margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+
+li {
+  font-size: 42px;
+  float: left;
+}
+
+li a {
+  font-family: Roboto;
+  display: block;
+  color: #FFF;
+  font-weight: 400;
+  text-align: right;
+  margin-left: 40px;
+  margin-top: 54px;
+}
+
+li a:hover {
+  color: #999;
+}
+
+img#search {
+  height: 38px;
+  padding-top: 6px;
+}
+
+h1#nav {
+  font-family: Playfair Display;
+  font-weight: 600;
+  color: #FFF;
+  font-size: 54px;
+  margin-top: 38px;
+  float: left;
+}
+
+table {
+  margin-bottom: 5%;
+}
+
+th, td {
+  border: 5px solid black;
+  border-collapse: collapse;
+}
+
+tr {
+  display: inline-grid;
+}
+
+td.top {
+  grid-row-start: 2;
+}
+
+th {
+  border-bottom: 0px;
+  width: 90%;
+  color: #FFF;
+  background-color: #999;
+  padding: 5%;
+  padding-bottom: 15%;
+  padding-top: 15%;
+}
+
+td {
+  padding: 7.5%;
+  width: 85%;
+  text-align: left;
+  background-color: #FFF;
+}
+
+h1 {
+  font-family: Roboto Slab;
+  font-weight: 400;
+  font-size: 54px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 42px;
+  margin: 0;
+}
+
+h2.name {
+  font-weight: 500;
+}
+
+
+
+/*
+div.unit {
+  width: 960px;
+  height: 420px;
+  background-color: #A9A9A9;
+  margin-bottom: 40px;
+}
+
+div.story {
+  position: absolute;
+  width: 597px;
+  height: 416px;
+  border: solid;
+  border-width: 2px;
+  border-color: #000;
+}
+
+div.research {
+  position: absolute;
+  background-color: #FFF;
+  margin-left: 597px;
+  width: 358px;
+  height: 416px;
+  border: solid;
+  border-width: 2px;
+  border-color: #000;
+}
+
+div.content {
+  height: 420px;
+}
+*/

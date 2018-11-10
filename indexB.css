@@ -1,0 +1,161 @@
+html {
+  display: block;
+}
+
+body {
+  margin: 0 auto;
+  display: block;
+}
+
+main {
+  position: relative;
+  margin: auto;
+  margin-top: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 960px;
+  height: auto;
+  font-family: Roboto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 60px;
+  top: 0;
+  background-color: #000;
+}
+
+div#nav {
+  width: 960px;
+  margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+
+li {
+  font-size: 16px;
+  float: left;
+}
+
+li a {
+  font-family: Roboto;
+  display: block;
+  color: #FFF;
+  font-weight: 400;
+  text-align: right;
+  margin-left: 22px;
+  margin-top: 22px;
+}
+
+li a:hover {
+    color: #999;
+}
+
+img#search {
+  height: 14px;
+  padding-top: 4px;
+}
+
+h1#nav {
+  padding-top: 9px;
+  font-family: Playfair Display;
+  font-weight: 600;
+  color: #FFF;
+  font-size: 24px;
+  float: left;
+}
+
+table {
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+table, th, td {
+  border: 3px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  height: 420px;
+}
+
+th {
+  color: #FFF;
+  background-color: #999;
+  padding-left: 160px;
+  padding-right: 160px;
+  width: 62.5%;
+}
+
+td {
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 37.5%;
+  text-align: left;
+}
+
+h1 {
+  font-family: Roboto Slab;
+  font-weight: 400;
+  font-size: 32px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0;
+}
+
+h2.name {
+  font-weight: 500;
+}
+
+
+
+/*
+div.unit {
+  width: 960px;
+  height: 420px;
+  background-color: #A9A9A9;
+  margin-bottom: 40px;
+}
+
+div.story {
+  position: absolute;
+  width: 597px;
+  height: 416px;
+  border: solid;
+  border-width: 2px;
+  border-color: #000;
+}
+
+div.research {
+  position: absolute;
+  background-color: #FFF;
+  margin-left: 597px;
+  width: 358px;
+  height: 416px;
+  border: solid;
+  border-width: 2px;
+  border-color: #000;
+}
+
+div.content {
+  height: 420px;
+}
+*/
